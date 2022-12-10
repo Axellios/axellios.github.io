@@ -1,0 +1,30 @@
+.small-gray-line {
+    width: 271px;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(180deg);
+}
+
+.small-hor-line {
+    width: 50px;
+    height: 0px;
+    border: 1px solid #57D6FF;
+    transform: rotate(180deg);
+}
+
+.large-hor-blue-line {
+    width: 582px;
+    height: 0px;
+    border: 1px solid #00C5FF;
+    transform: rotate(180deg);
+}
+
+.big-margin-top {
+    margin-top: 200px;
+}
+
+.medium-hor-gray-line {
+    width: 117px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(180deg);
+}

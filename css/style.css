@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+body {
+    background-color: #141C24;
+    margin: 0px;
+}
+
+header {
+    background: #141C24;
+    position: absolute;
+    height: 123px;
+    left: 0px;
+    top: 0px;
+}
+
+/* navigation */
+
+.my-header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    justify-items: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.my-navigation {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style-type: none;
+    justify-items: center;
+    align-content: center;
+}
+
+.my-navigation>li>a {
+    font-family:  'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.my-title {
+    height: 21.72px;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #57D6FF;
+    margin: 5% 0px 0px 0px;
+}
+
+.logo {
+    height: 30px;
+    justify-self: right;
+    padding-top: 10px;
+}
+
+.logo-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-content: center;
+}
+
+.my-mavigation>li>a {
+    text-align: center;
+}
+
+.my-navigation>li>a:hover+.under-line,
+.blue-text:hover+.underLine {
+    height: 0px;
+    border: 1px solid #00C5FF;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #171717;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+}
+
+.footer-item .logo,
+.footer-item .my-title-white{
+    margin-right: 30px;
+}
+
+.footer-item .cpr,
+.footer-item .cookie {
+    margin-right: 50px;
+    width: auto;
+}
+
+.my-title-white {
+    height: 21.72px;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECECEC;
+    margin-left: 10px;
+}
+
+.my-h2-white {
+    height: 21.72px;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    width: 126px;
+    height: 11px;
+    color: #ECECEC;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.h7-gray {
+    width: 175px;
+    height: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.color-icons{
+    color: white;
+}
+
+.margin-left{
+    margin-left: 10px;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.margin-top-200{
+    margin-top: 200px;
+}
+
+.os-icons{
+    color: #57D6FF;
+    margin: 30px;
+}
+
+.os-icons:before {
+    font-size: 70px;
+}
+
+.h5-gray {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    color: #ABABAB;
+}
+
+.margin-left-right-200px{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.grid-three-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-five-columns {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.flex-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.grid-three-columns-small-big-small{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.head-some-page-h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+.delete-under-line{
+    text-decoration: none;
+}
+
+.grid-area-d{
+    grid-area: d;
+}
+
+.btn-without-nook{
+    position: relative;
+    background: #FFFFFF;
+    padding-left: 30px;
+    margin-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-without-nook>a {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn-without-nook:before{
+    content:'';  
+    position: absolute;
+    left:100%; 
+    top:0;
+    height:calc(100% - 30px);    
+    border-left: 30px solid #FFFFFF;
+    border-top: 30px solid transparent;   
+    width: 100px;
+}

@@ -1,0 +1,102 @@
+.some-gap {
+    gap: 20px;
+}
+
+/* simple card */
+
+.sub-card {
+    width: 400px;
+    height: 500px;
+    background: #1F2631;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-card>.card-head>h1 {
+    width: 311px;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.sub-card>.card-head>h2 {
+    width: 125px;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.sub-card>ul {
+    list-style-type: none;
+    width: 311px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    color: #ABABAB;
+}
+
+.card-head {
+    padding-left: 40px;
+}
+
+.sub-card>.like-btn {
+    width: 321px;
+    height: 70px;
+    background: #00C5FF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.sub-card>.like-btn>a {
+    text-decoration: none;
+    width: 75px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;    
+    color: #141C24;
+}
+
+/* hover card */
+
+.sub-card:hover {
+    background: #00C5FF;
+}
+
+.sub-card:hover>.like-btn>a {
+    color: #F1F8FF;
+}
+
+.sub-card:hover>.like-btn {
+    background: #141C24;
+}
+
+.sub-card:hover>.card-head>h1,
+.sub-card:hover>.card-head>h2,
+.sub-card:hover>ul {
+    color: #141C24;
+}
+
+@media screen and (max-width: 1200px) {
+    .grid-three-columns{
+        grid-template-columns: 1fr;
+    }
+
+    .margin-top-100{
+        margin-top: 10px;
+    }
+}

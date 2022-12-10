@@ -1,0 +1,163 @@
+/* home page */
+
+/* image on top of page */
+.header-image {
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    height: 777px;
+    background: radial-gradient(49.95% 96.01% at 50.05% 49.91%,
+            rgba(82, 125, 139, 0) 0%,
+            rgba(82, 125, 139, 0.5) 100%),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2));
+    border: 2px solid #57D6FF;
+    box-shadow: -33px 17px 29px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-image: url(../img/h1.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-image>h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.header-image>h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+/* section grid two columns */
+
+.grid-two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* style of sections */
+
+.head-section {
+    display: flex;
+    align-items: center;
+}
+
+/* text style */
+
+.head-section>h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 40px;
+    color: #57D6FF;
+}
+
+.h2-white {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+
+/* link style */
+
+.blue-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #00C5FF;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: 00C5FF;
+}
+
+/* style of image with pc */
+
+.pc-img {
+    height: 70%;
+    align-self: center;
+    justify-self: center;
+}
+
+.h5-white {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    color: #F1F1F1;
+}
+
+.pic-and-text {
+    margin: 30px;
+}
+
+.pic-and-text>img {
+    height: 50px;
+}
+
+
+.margin-top {
+    margin-top: 100px;
+}
+
+
+/* device */
+
+.padding-left {
+    padding-left: 200px;
+}
+
+.grid-two-column-small-big {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.big-gap {
+    gap: 100px;
+}
+
+.display-grid {
+    display: grid;
+}
+
+.map-img {
+    height: 320px;
+    margin-top: 30px;
+}
+
+.flex-end {
+    justify-self: flex-end;
+}
+
+.pic-dev {
+    justify-self: end;
+    width: 700px;
+}
+
+.grid-center {
+    align-self: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .pc-img{
+        height: 400px;
+    }
+}
